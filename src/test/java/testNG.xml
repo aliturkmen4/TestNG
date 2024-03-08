@@ -11,5 +11,10 @@
             <class name="TestNG"/>
         </classes>
     </test>
+    <test name="priority">
+        <classes>
+            <class name="PriorityTestNG"/>
+        </classes>
+    </test>
 </suite>
 
