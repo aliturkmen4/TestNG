@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="test suite" verbose="1">
-    <test name="grup bulma">
+    <test name="test deneme">
         <groups>
             <run>
                 <include name="Group A"/>
@@ -14,6 +14,11 @@
     <test name="priority">
         <classes>
             <class name="PriorityTestNG"/>
+        </classes>
+    </test>
+    <test name="test deneme 2">
+        <classes>
+            <class name="Annotations"/>
         </classes>
     </test>
 </suite>
