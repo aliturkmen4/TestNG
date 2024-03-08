@@ -23,22 +23,22 @@ public class TestNG {
         driver.close();
     }
 
-    @Test
+    @Test (groups = {"Group A"})
     public void test1(){
         System.out.println("test1");
     }
 
-    @Test
+    @Test (groups = {"Group B"})
     public void test2(){
         System.out.println("test2");
     }
 
-    @Test
+    @Test(groups = {"Group A","Group B"})
     public void test3(){
         System.out.println("test3");
     }
 
-    @Test
+    @Test(groups = {"Group C"})
     public void test4(){
         System.out.println("test4");
     }
