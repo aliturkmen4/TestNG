@@ -3,12 +3,21 @@
 <suite name="Suite1" verbose="1">
     <test name="testng">
         <classes>
-            <class name="TestNG"/>
+            <class name="TestNG">
+                <methods>
+                    <exclude name="test2"/>
+                    <exclude name="test1"/>
+                </methods>
+            </class>
         </classes>
     </test>
     <test name="testNG">
         <classes>
-            <class name="Annotations"/>
+            <class name="Annotations">
+                <methods>
+                    <include name="anaSayfaBaglanma"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
